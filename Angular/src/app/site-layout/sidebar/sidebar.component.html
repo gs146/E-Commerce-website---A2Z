@@ -1,0 +1,7 @@
+<h3 class="my-4" style="color: firebrick; font-weight: bold; text-align: center;">Zero to Hero</h3>
+<a class="list-group-item" routerLink="products/" style="background-color: crimson; color: floralwhite;">View All Products</a>
+<div class="list-group"  *ngFor="let catg of categoryList">
+    <a class="list-group-item" href="products/category/{{catg.categoryId}}">{{catg.name}}</a>
+    
+    
+</div>

@@ -1,0 +1,23 @@
+<br>
+
+<h3>Search Results...</h3>
+<div class="row">
+<div *ngIf="this.count >0; else showError" class="col-sm-12">
+    <div class="col-lg-4 col-md-6 mb-4" *ngFor = "let product of productList">
+        <div class="card h-100">
+            <a href="#!"><img class="card-img-top" src="assets/sp.jpg" alt="..." /></a>
+            <div class="card-body">
+                <h4 class="card-title"><a href="products/view-product/{{product.productId}}">{{product.name}}</a></h4>
+                <h5>Rs. {{product.price}}</h5>
+                <p class="card-text">{{product.description}}</p>
+            </div>
+            <div class="card-footer"><small class="text-muted">★ ★ ★ ★ ☆</small></div>
+        </div>
+    </div>
+   </div>
+   <ng-template #showError>
+          <div class="alert alert-danger" role="alert" style="margin-right:100px;">
+                Product Not Found!
+           </div>
+    </ng-template>      
+</div>

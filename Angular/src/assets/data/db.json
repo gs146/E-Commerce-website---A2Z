@@ -1,0 +1,188 @@
+{
+  "product": [
+    {
+      "categoryId": 1,
+      "name": "Shirt",
+      "description": "Wear in party...dance, have fun",
+      "rating": "",
+      "price": 300,
+      "productImg": "assets/sp.jpg",
+      "review": "",
+      "id": 1
+    },
+    {
+      "id": 1,
+      "name": "Formal Shirt",
+      "categoryId": 1,
+      "description": "Wear in party...dance, have fun",
+      "productImg": "assets/sp.jpg",
+      "price": 1200,
+      "rating": 3,
+      "review": 130
+    },
+    {
+      "id": 2,
+      "name": "Jeans",
+      "categoryId": 2,
+      "description": "wear it .. feel it",
+      "productImg": "assets/sp.jpg",
+      "price": 3300,
+      "rating": 5,
+      "review": 330
+    },
+    {
+      "categoryId": "1",
+      "name": "Cap",
+      "description": "golden red smart cap",
+      "rating": "3",
+      "price": 900,
+      "productImg": "assets/sp.jpg",
+      "review": "3",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Trouser",
+      "categoryId": 1,
+      "description": "Wear in party...dance, have fun",
+      "productImg": "assets/sp.jpg",
+      "price": 800,
+      "rating": 4,
+      "review": 130
+    },
+    {
+      "id": 5,
+      "name": "Lehenga",
+      "categoryId": 2,
+      "description": "Wear in party...dance, have fun",
+      "productImg": "assets/sp.jpg",
+      "price": 3300,
+      "rating": 5,
+      "review": 330
+    },
+    {
+      "id": 6,
+      "name": "Chair",
+      "categoryId": 4,
+      "description": "Wear in party...dance, have fun",
+      "productImg": "assets/sp.jpg",
+      "price": 900,
+      "rating": 4,
+      "review": 430
+    },
+    {
+      "id": 6,
+      "name": "Headphone",
+      "categoryId": 3,
+      "description": "Wear in party...dance, have fun",
+      "productImg": "assets/sp.jpg",
+      "price": 900,
+      "rating": 4,
+      "review": 430
+    },
+    {
+      "id": 8,
+      "name": "Earphone",
+      "categoryId": 3,
+      "description": "listen...dance, have fun",
+      "productImg": "assets/sp.jpg",
+      "price": 900,
+      "rating": 4,
+      "review": 430
+    },
+    {
+      "categoryId": "3",
+      "name": "Redmi note 8 pro",
+      "description": "New phone",
+      "rating": "",
+      "price": "10000",
+      "productImg": "assets/sp.jpg",
+      "review": "",
+      "id": 14
+    },
+    {
+      "id": 17,
+      "categoryId": "4",
+      "name": "Table",
+      "description": "Rest here",
+      "rating": "4",
+      "price": "900",
+      "productImg": "assets/sp.jpg",
+      "review": "3"
+    },
+    {
+      "id": 18,
+      "categoryId": "2",
+      "name": "Top",
+      "description": "Fashionable",
+      "rating": "4",
+      "price": "700",
+      "productImg": "assets/sp.jpg",
+      "review": "3"
+    }
+  ],
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "userId": 1,
+      "id": 7,
+      "title": "magnam facilis autem",
+      "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+    },
+    {
+      "userId": 1,
+      "id": 10,
+      "title": "optio molestias id quia eum",
+      "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+    },
+    {
+      "userId": 2,
+      "id": 11,
+      "title": "et ea vero quia laudantium autem",
+      "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
+    },
+    {
+      "userId": 2,
+      "id": 13,
+      "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+      "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "first comment"
+    },
+    {
+      "id": 2,
+      "body": "second comment"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "categoryName": "Men"
+    },
+    {
+      "id": 2,
+      "categoryName": "Women"
+    },
+    {
+      "id": 3,
+      "categoryName": "Electronics"
+    },
+    {
+      "id": 4,
+      "categoryName": "Furniture"
+    },
+    {
+      "id": 5,
+      "categoryName": "Crockery"
+    }
+  ]
+}
